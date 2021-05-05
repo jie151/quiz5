@@ -1,12 +1,19 @@
+import logo from './logo.svg';
 import './App.css';
 import MultiButton from './button'
+import HelloCGU from './cgu_hello'
 
 function App() {
   return (
     <div className="App">
-      <div>{MultiButton(10)}</div>
+      <div>
+        {HelloCGU() }
+      </div>
+      <div>
+        {MultiButton(10)}
+      </div>
     </div>
   );
 }
+
 export default App;
-  
